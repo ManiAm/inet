@@ -1,0 +1,6 @@
+
+<config>
+	<interface hosts='host{0-6} whost{0,1} router*' address='10.x.x.x' netmask='255.x.x.x'/>
+    <route hosts='host*' destination='*' netmask='0.0.0.0' interface='eth0' />
+    <route hosts='whost*' destination='*' netmask='0.0.0.0' interface='wlan0' />
+</config>

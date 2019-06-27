@@ -1,0 +1,5 @@
+<scenario> 
+	<at t='10.0'> 
+		<crash module='ahost1' /> 
+	</at> 
+</scenario>

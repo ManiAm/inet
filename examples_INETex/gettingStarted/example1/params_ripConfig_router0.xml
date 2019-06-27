@@ -1,0 +1,6 @@
+
+<config>
+	<interface names='eth[1]' mode='NoRIP' />
+	<interface names='eth[3]' mode='NoRIP' />
+	<interface metric='1' />
+</config>
